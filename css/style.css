@@ -6,14 +6,30 @@
   text-decoration: none;
 }
 
-body {
-  font-family: "Barlow", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
-  font-family: "Barlow", sans-serif;
+@font-face {
   font-family: "Fraunces", serif;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Gothic A1", sans-serif;
+  font-family: "Ibarra Real Nova", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  src: url(../fonts/Poppins-Bold.ttf);
 }
-
+@font-face {
+  font-family: "Fraunces", serif;
+  font-family: "Gothic A1", sans-serif;
+  font-family: "Ibarra Real Nova", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Fraunces", serif;
+  font-family: "Gothic A1", sans-serif;
+  font-family: "Ibarra Real Nova", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -177,6 +193,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 56px;
+  margin-top: 88px;
 }
 .what h4 {
   width: 632px;
@@ -239,12 +256,95 @@ body {
   color: white;
 }
 
+.forms {
+  margin-bottom: 168px;
+}
 .forms form hr {
   width: 255px;
   height: 1px;
   background: #83888F;
   mix-blend-mode: normal;
   opacity: 0.25;
+}
+
+.order {
+  width: 730px;
+  height: 208px;
+  background: #2C343E;
+  border-radius: 10px;
+  padding: 31px 64px;
+  margin-top: 84px;
+  margin-bottom: 40px;
+}
+.order p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.order h3 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #FFFFFF;
+  height: 120px;
+  width: 602px;
+}
+.order h3 b {
+  color: #0E8784;
+}
+
+.button {
+  padding: 15px 35px;
+  background: #66D2CF;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.option {
+  margin-top: 100px;
+}
+.option input {
+  display: none;
+}
+.option label {
+  padding: 10px;
+  margin-bottom: 94px;
+  height: 32px;
+  width: 164px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: rgba(51, 61, 75, 0.431372549);
+  cursor: pointer;
+}
+.option label:hover {
+  color: #333D4B;
+}
+.option hr {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .div_footer {
